@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T00:11:08.137Z" agent="5.0 (Windows)" etag="_uBCS7ei346JPcfBpfex" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-24T03:21:09.741Z" agent="5.0 (Windows)" etag="3QLn3fkacvgmDaVTQlEx" version="16.6.1" type="github">
   <diagram id="Er6lNVDn4B2VuYiR8_et" name="Page-1">
     <mxGraphModel dx="1422" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="5BW_tHudnOTtSBd-slWF-1" value="Participant" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="300" width="200" height="120" as="geometry" />
+          <mxGeometry x="10" y="400" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="5BW_tHudnOTtSBd-slWF-2" value="PlayerID (INT) [PK]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="5BW_tHudnOTtSBd-slWF-1">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
@@ -17,7 +17,7 @@
           <mxGeometry y="90" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5BW_tHudnOTtSBd-slWF-5" value="Season" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="110" width="200" height="180" as="geometry" />
+          <mxGeometry x="230" y="210" width="200" height="180" as="geometry" />
         </mxCell>
         <mxCell id="5BW_tHudnOTtSBd-slWF-20" value="SeasonID (INT) [PK] " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="5BW_tHudnOTtSBd-slWF-5">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
@@ -35,7 +35,7 @@
           <mxGeometry y="150" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5BW_tHudnOTtSBd-slWF-21" value="Match" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="300" width="200" height="150" as="geometry" />
+          <mxGeometry x="230" y="400" width="200" height="150" as="geometry" />
         </mxCell>
         <mxCell id="5BW_tHudnOTtSBd-slWF-34" value="MatchID (INT) [PK]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="5BW_tHudnOTtSBd-slWF-21">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
@@ -50,7 +50,7 @@
           <mxGeometry y="120" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5BW_tHudnOTtSBd-slWF-30" value="Team" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="430" width="200" height="120" as="geometry" />
+          <mxGeometry x="10" y="530" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="5BW_tHudnOTtSBd-slWF-31" value="TeamID (INT) [PK]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="5BW_tHudnOTtSBd-slWF-30">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
@@ -62,7 +62,7 @@
           <mxGeometry y="90" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5BW_tHudnOTtSBd-slWF-40" value="Session" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="450" y="300" width="200" height="210" as="geometry" />
+          <mxGeometry x="450" y="400" width="200" height="210" as="geometry" />
         </mxCell>
         <mxCell id="5BW_tHudnOTtSBd-slWF-71" value="SessionID (INT) [PK]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="5BW_tHudnOTtSBd-slWF-40">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
@@ -83,7 +83,7 @@
           <mxGeometry y="180" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5BW_tHudnOTtSBd-slWF-74" value="Match_Player_Detail" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="460" width="200" height="240" as="geometry" />
+          <mxGeometry x="230" y="560" width="200" height="240" as="geometry" />
         </mxCell>
         <mxCell id="5BW_tHudnOTtSBd-slWF-76" value="MatchID (INT) [PK, FK]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="5BW_tHudnOTtSBd-slWF-74">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
@@ -107,13 +107,22 @@
           <mxGeometry y="210" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5BW_tHudnOTtSBd-slWF-98" value="Session_Participant_Map" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="450" y="520" width="200" height="90" as="geometry" />
+          <mxGeometry x="450" y="620" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5BW_tHudnOTtSBd-slWF-99" value="PlayerID (INT) [PK, FK]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="5BW_tHudnOTtSBd-slWF-98">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5BW_tHudnOTtSBd-slWF-100" value="SessionID (INT) [PK, FK]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="5BW_tHudnOTtSBd-slWF-98">
           <mxGeometry y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5BW_tHudnOTtSBd-slWF-102" value="Server" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="90" width="320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5BW_tHudnOTtSBd-slWF-103" value="ServerID (INT) (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="5BW_tHudnOTtSBd-slWF-102">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5BW_tHudnOTtSBd-slWF-104" value="PastSeasonConfigAsDefault (BOOLEAN)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="5BW_tHudnOTtSBd-slWF-102">
+          <mxGeometry y="60" width="320" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
